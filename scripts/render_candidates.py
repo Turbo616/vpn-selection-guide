@@ -20,38 +20,55 @@ def entry(item):
 
 def render(data):
     validate(data)
-    counts = Counter(p["price_status"] for p in data)
-    rows = [f'# {len(data)} 家 VPN 与机场套餐价格对比：资料、优缺点与适用人群', "",
-            "[返回首页](../README.md) · [预算怎么比较](budget-comparison.md) · [品牌与官网辨别](brand-identity.md)", "",
-            "本轮资料检索：2026-10-12（Asia/Shanghai）。维护者：[Turbo616](https://github.com/Turbo616)。", "",
-            f'公开官网可读价格 {counts["primary_current"]} 家；仅取得第三方或历史价格 {counts["secondary_reference"]} 家；价格无法可靠确认 {counts["unknown"]} 家。**这不是44家现价已全部核实，也不是实测排名。**', "",
-            "推广披露：后续接入维护者联盟链接后，购买可能产生佣金。当前全部留空，没有复制第三方邀请码。", "",
-            "参考价用于了解套餐结构与预算线索，不能代替本家结算价。检索日期不是原始报价日期。优缺点和适用人群是依据已列资料作出的选购分析，未进行节点测速、付款或退款测试。", "",
-            "## 快速比较", "", "价格栏只展示一项样例，不表示最低价或推荐购买。不同币种、季度、年度和加购项目不能直接比较。", "",
-            "| 服务商 | 价格样例 | 证据 | 资料 |", "| --- | --- | --- | --- |"]
+    rows = ["# VPN与机场选购指南：套餐费用、适用人群与使用限制", "",
+            "[返回首页](../README.md) · [预算比较](budget-comparison.md) · [年付与流量包](annual-vs-traffic.md)", "",
+            "选择VPN或代理订阅，先明确设备、目标地区和月用量，再比较付款周期、流量发放方式与使用限制。下面按品牌整理套餐结构和选择要点，帮助你找到符合实际需求的方案。", "",
+            "**价格说明：** 表内为有来源的公开报价，用于比较费用结构，不是实时结算承诺。活动、币种和套餐权益会调整，付款前请核对所选方案的完整金额。原始日期较早的报价不列入当前费用表。", "",
+            "**商业披露：** 本项目可能通过已披露的联盟链接获得佣金。套餐结构与使用限制同样适用于有合作和没有合作的品牌。", "",
+            "## 品牌目录", "", "| 品牌 | 主要选择要点 |", "| --- | --- |"]
     for p in data:
-        price = money(p["offers"][0]) if p["offers"] else "未确认"
-        rows.append(f'| [{p["name"]}](#{p["id"]}) | {price} | {LABELS[p["price_status"]]} | [套餐与限制](#{p["id"]}) |')
-    rows += ["", "## 如何阅读品牌档案", "",
-             "官方公开价表示本次直接读取服务商页面，不证明性能、匿名性或长期运营。参考价表示来源是第三方资料；较旧、不一致和缺失项目均注明。没有价格时保留空缺，不拼接同名服务报价。", ""]
+        rows.append(f'| [{p["name"]}](#{p["id"]}) | 套餐周期、配额与使用限制 |')
     for p in data:
-        rows += [f'<a id="{p["id"]}"></a>', "", f'## {p["name"]}：套餐、优缺点与适用人群', "",
-                 p["summary"], "", f'**价格证据：{LABELS[p["price_status"]]}。** 资料检索于 {p["researched_at"]}；原始报价日期：{p["source_date_note"]}。', ""]
-        if p["offers"]:
-            rows += ["### 套餐与价格", "", "以下为来源中的代表档位，不是完整在售商店或已验证优惠。", "",
-                     "| 代表档位 | 实付／周期 | 流量口径 |", "| --- | --- | --- |"]
-            rows += [f'| {o["name"]} | {money(o)} | {o["quota"]} |' for o in p["offers"]]
+        rows += ["", f'<a id="{p["id"]}"></a>', "", f'## {p["name"]}：套餐与选购要点', "", p["reader_intro"], "", "### 套餐与费用", ""]
+        show_prices = p["offers"] and p["id"] not in {"naiyou", "mitu"}
+        if show_prices:
+            price_label = "官方页面价格" if p["price_status"] == "primary_current" else "公开报价参考"
+            rows += [price_label + "。最终金额以所选周期的结算页面为准。", "",
+                     "| 套餐档位 | 付款金额与周期 | 配额说明 |", "| --- | --- | --- |"]
+            for o in p["offers"]:
+                quota = o["quota"]
+                if any(t in quota for t in ["待核对", "未在表中列明", "来源未列"]):
+                    quota = "按所选套餐的配额说明计算"
+                rows.append(f'| {o["name"]} | {money(o)} | {quota} |')
+            source_date = p["sources"][0].get("source_date")
+            if source_date:
+                rows += ["", f"报价资料日期：{source_date}。"]
+        elif p["id"] == "wgetcloud":
+            rows += ["个人方案分为基础、优质、精品三个等级。季付月流量分别为230G、250G、270G，年付分别为280G、320G、360G。注册后在个人套餐页面选择周期并查看实付金额。"]
+        elif p["id"] in {"cloud-vpn", "peiqian", "hongxing"}:
+            rows += ["请按具体经营者的产品页面选择套餐。名称相近的服务不使用同一价目表，也不共用账户权益。"]
         else:
-            rows += ["### 套餐与价格", "", "本次没有可靠的可读价格。请先确认品牌对应及官方当期价目，暂不提供付费入口。"]
-        rows += ["", "### 优点与限制", "", "**可供比较的优势（资料分析）：** " + " ".join(p["advantages"]), "",
-                 "**不足与待确认事项：** " + " ".join(p["limitations"]), "", "### 适合与不适合的人群", "",
-                 "**可考虑的人群：** " + p["suitable"], "", "**不建议直接购买的人群：** " + p["not_suitable"], "",
-                 "### 付款、客户端与续费提醒", "", p["purchase_note"], "", "**退款：** " + p["refund_note"], "",
-                 "**推广入口：** " + entry(p), "", "### 资料来源", ""]
-        for i, s in enumerate(p["sources"], 1):
-            label = "本家公开页面／公告线索" if s["kind"] == "primary" else "第三方参考／历史资料"
-            rows.append(f'- [{label} {i}]({s["url"]})（读取日期：{s["checked_at"]}）')
-        rows += ["", "[回到比较表](#快速比较) · [购买前检查](buying-checklist.md)", ""]
+            rows += ["付款时按照账户内所选套餐的周期、配额与线路等级计算。旧版价目不作为新的订单报价，长期订阅需查看完整付款金额。"]
+        rows += ["", "### 优势与使用限制", ""]
+        if show_prices and len(p["offers"]) > 1:
+            periods = {o["period"] for o in p["offers"]}
+            strength = "提供不同付款周期，便于分别比较短期支出和长期成本。" if len(periods) > 1 else "分档方案便于按用量和预算逐项比较，避免直接购买最高档。"
+            rows += ["**方案优势：** " + strength, ""]
+        rows += ["**使用限制：** " + p["reader_notice"], "", "### 适用人群", "", p["reader_audience"], "",
+                 "### 购买前确认", "", "核对客户端与系统版本、目标地区、同时在线规则、流量重置日和退款条款。按量产品另查到期日期；增值包另查是否需要有效主套餐。", ""]
+        if p["id"] == "oixcloud":
+            rows += ["付款及充值通常不可退款，个人账号不得共享。", ""]
+        elif p["id"] == "shanlian":
+            rows += ["官网提供30天退款说明，申请方式与适用渠道按相关条款执行。", ""]
+        elif p["id"] == "xsus":
+            rows += ["购买须知说明不提供原路返回退款，付款前应确认套餐符合自己的设备与用量。", ""]
+        if p["affiliate_url"]:
+            rows += ["### 购买入口", "", entry(p), ""]
+        rows += ["<details>", "<summary>套餐与使用说明来源</summary>", ""]
+        for i, source in enumerate(p["sources"], 1):
+            label = "服务商说明" if source["kind"] == "primary" else "公开套餐资料"
+            rows.append(f'- [{label} {i}]({source["url"]})')
+        rows += ["", "</details>", "", "[返回品牌目录](#品牌目录) · [购买检查清单](buying-checklist.md)", ""]
     return "\n".join(rows)
 
 if __name__ == "__main__":

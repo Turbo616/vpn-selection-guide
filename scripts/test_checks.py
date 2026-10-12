@@ -36,6 +36,7 @@ unknown.update(affiliate_url="https://example.com/partner", verification_status=
 assert 'href="https://example.com/partner"' not in render([unknown])
 directory = render(data)
 assert all(f'<a id="{p["id"]}"></a>' in directory for p in data)
-assert "参考价，未核现价" in directory and "价格未确认" in directory
+assert "公开报价参考" in directory and "品牌目录" in directory
+assert all(t not in directory for t in ["本次只沿参考清单", "本轮资料检索", "未核现价", "推广链接预留"])
 print("PASS: affiliate gates, price provenance, missing evidence and complete provider anchors.")
 
