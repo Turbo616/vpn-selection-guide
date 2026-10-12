@@ -5,17 +5,127 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/John19187/The-40-Best-VPNs"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "星云容易与 M78 星云等同名服务混淆，本次只沿参考清单对应入口研究。",
+    "offers": [
+      {
+        "name": "月付入门",
+        "amount": 18.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "月付大流量",
+        "amount": 38.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "300GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考记录区分了月付与年付，便于按周期比价。"
+    ],
+    "limitations": [
+      "报价不是本次登录核实的现价；本次页面和套餐读取要求登录。"
+    ],
+    "suitable": "能接受先核对本家客户端、按月验证的个人用户。",
+    "not_suitable": "希望直接使用任意第三方客户端、尚未确认同名品牌身份的用户。",
+    "purchase_note": "先确认本站入口确实对应星云，不要采用 M78 或宇宙云的报价。",
+    "source_date_note": "2026-09-07",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/John19187/The-40-Best-VPNs",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-09-07"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "shanlian",
     "name": "闪连VPN",
     "affiliate_url": null,
-    "official_url": null,
-    "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "official_url": "https://lightxtremevpn.com/",
+    "verification_status": "official_verified",
+    "evidence": [
+      "https://lightxtremevpn.com/register/",
+      "https://lightxtremevpn.com/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "primary_current",
+    "summary": "闪连现使用 LightXtreme VPN 品牌；旧 lightningxvpn.com 自动跳到 lightxtremevpn.com。",
+    "offers": [
+      {
+        "name": "周会员",
+        "amount": 4.99,
+        "currency": "USD",
+        "period": "1周",
+        "quota": "官网宣传不限制流量",
+        "source_id": "price-1"
+      },
+      {
+        "name": "月会员",
+        "amount": 12.99,
+        "currency": "USD",
+        "period": "1个月",
+        "quota": "官网宣传不限制流量",
+        "source_id": "price-1"
+      },
+      {
+        "name": "季会员",
+        "amount": 29.99,
+        "currency": "USD",
+        "period": "3个月",
+        "quota": "官网宣传不限制流量",
+        "source_id": "price-1"
+      },
+      {
+        "name": "年会员",
+        "amount": 84.99,
+        "currency": "USD",
+        "period": "1年",
+        "quota": "官网宣传不限制流量",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "有专用应用，公开价格覆盖短期到年度，默认允许3台同时在线。"
+    ],
+    "limitations": [
+      "年度展示价与当时页面默认订单总额不同，必须核对选中套餐；本次未付款验证。"
+    ],
+    "suitable": "想用官方应用、需要短期出差或多系统个人使用的人。",
+    "not_suitable": "需要超过默认3台同时在线、或不愿使用专属应用的人。",
+    "purchase_note": "以选中档位后的订单总额和币种为准；30天退款宣传还需核对购买渠道和条款。",
+    "source_date_note": "2026-10-12",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://lightxtremevpn.com/register/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-10-12"
+      },
+      {
+        "id": "primary-1",
+        "url": "https://lightxtremevpn.com/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "官网宣传30天退款；需核对购买渠道、适用条款和申请入口，本次未测试退款。"
   },
   {
     "id": "cloud-vpn",
@@ -23,8 +133,34 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/John19187/The-40-Best-VPNs/blob/main/data/providers.yml"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "unknown",
+    "summary": "Cloud-VPN 名称过于通用，存在同名手机应用和企业 VPN 产品，本次未建立可靠的身份对应。",
+    "offers": [],
+    "advantages": [
+      "目前没有足够证据确认产品优势，因此不作性能推荐。"
+    ],
+    "limitations": [
+      "参考跳转入口出现连接失败，根地址内容也不能确认品牌，无法核实报价。"
+    ],
+    "suitable": "暂不推荐购买；先取得经营方、真实入口和套餐说明的人。",
+    "not_suitable": "希望根据搜索结果立即购买的用户。",
+    "purchase_note": "不把 App Store 同名 Cloud VPN 的美元价格或企业云套餐放到这个品牌下。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/John19187/The-40-Best-VPNs/blob/main/data/providers.yml",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "yangfan",
@@ -32,17 +168,110 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/lwh3/lwh-fork-the-40-best-vpns"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "参考资料把杨帆云描述为按流量、设备和线路等级分档的订阅服务。",
+    "offers": [
+      {
+        "name": "LV1",
+        "amount": 19.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "LV2",
+        "amount": 29.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "LV3",
+        "amount": 39.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "400GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考结构同时展示设备数与线路等级，可以按需要筛选。"
+    ],
+    "limitations": [
+      "当前入口主要展示登录前页面；未独立核实客户端兼容和当前等级权益。"
+    ],
+    "suitable": "愿意先检查应用兼容、再按实际流量和设备数选档的人。",
+    "not_suitable": "只希望增加流量、不愿逐档核对线路和客户端的人。",
+    "purchase_note": "上述来源为参考仓库的转载，未视为独立交叉验证；不采用其他同名营销页报价。",
+    "source_date_note": "未注明",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/lwh3/lwh-fork-the-40-best-vpns",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "wgetcloud",
     "name": "WgetCloud VPN",
     "affiliate_url": null,
-    "official_url": null,
-    "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "official_url": "https://wgetcloud.org/",
+    "verification_status": "official_verified",
+    "evidence": [
+      "https://help-info.wgetcloud.org/zh/article/5awx6asq5yy65yirloacies7gos5ioikguecuseo5zcr6lst5lmw5rwb56ilkq-1oeyl5w/",
+      "https://help-info.wgetcloud.org/zh/",
+      "https://help-info.wgetcloud.org/zh/article/plus-6yhy85/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "unknown",
+    "summary": "WgetCloud 的本家帮助中心可以核实套餐规格，但售价需登录个人套餐页查看。",
+    "offers": [],
+    "advantages": [
+      "有明确的基础、优质、精品分层说明，客户端和购买流程文档较完整。"
+    ],
+    "limitations": [
+      "不提供免费试用；冷门地区节点不保证性能或特定服务可用，现价未取得。"
+    ],
+    "suitable": "能先核对地区和并发要求、愿意按季或年支付的个人用户。",
+    "not_suitable": "要求月付、免费试用或冷门地区永久可用保证的人。",
+    "purchase_note": "季付月额度230/250/270G，年付280/320/360G；限速200/300/500Mbps。可用IP数是3/4/5，不是设备数。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://help-info.wgetcloud.org/zh/article/5awx6asq5yy65yirloacies7gos5ioikguecuseo5zcr6lst5lmw5rwb56ilkq-1oeyl5w/",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-1",
+        "url": "https://help-info.wgetcloud.org/zh/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-refund",
+        "url": "https://help-info.wgetcloud.org/zh/article/plus-6yhy85/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "公开旧Plus说明写所有产品不退款，其他付款帮助页要求人工核实；有口径差异，不承诺可退。"
   },
   {
     "id": "dageyun",
@@ -50,8 +279,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangliebiao.com/list/dage.html"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "大哥云第三方资料显示月付与长期付款的流量可能不同，同一字母套餐不能直接视为相同权益。",
+    "offers": [
+      {
+        "name": "单月A",
+        "amount": 19.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "单月B",
+        "amount": 29.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "150GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "小流量",
+        "amount": 88.0,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "15GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料覆盖小流量年包和月付，能用于初步筛选预算。"
+    ],
+    "limitations": [
+      "不同周期可能改变额度，不能只用月付乘12估算年付；当前购买页未核实。"
+    ],
+    "suitable": "想比较低频备用与日常用量、能先确认当前客户端的人。",
+    "not_suitable": "按第三方所称不限设备进行多人拼单、未读账户条款的人。",
+    "purchase_note": "公开公告提到跨档购买可能覆盖旧套餐，续费前核对剩余权益。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangliebiao.com/list/dage.html",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "xinglian",
@@ -59,8 +339,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/starlinkcloud"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "星链云的参考档位为 Lite、Pro、Pro Plus 与 Plus Max；公告中出现低价套餐下架信息。",
+    "offers": [
+      {
+        "name": "Lite",
+        "amount": 12.5,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Pro",
+        "amount": 20.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Pro Plus",
+        "amount": 29.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考档位提供多种支出水平，本家有客户端与公告线索。"
+    ],
+    "limitations": [
+      "旧低价档可能已撤下；本次套餐读取明确要求登录，不能将参考价格当作在售价。"
+    ],
+    "suitable": "已能确认现有档位、能关注线路变动的个人用户。",
+    "not_suitable": "只按旧Lite报价规划长期预算的人。",
+    "purchase_note": "品牌并不是卫星互联网 Starlink 的官方VPN，不能由名称推断两者关联。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/starlinkcloud",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "jikeyun",
@@ -68,8 +399,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/jikecloud"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "极客云参考资料采用多级套餐，搜索中还存在同名云主机和其他代理服务。",
+    "offers": [
+      {
+        "name": "入门版",
+        "amount": 19.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      },
+      {
+        "name": "标准版",
+        "amount": 39.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      },
+      {
+        "name": "旗舰版",
+        "amount": 59.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考档位多，能根据预算比较，而不必从最高价档开始。"
+    ],
+    "limitations": [
+      "第三方旧协议和线路说明可能过期；当前入口读取存在连接问题。"
+    ],
+    "suitable": "先能确认本家身份和客户端、需要分档预算的用户。",
+    "not_suitable": "拿同名公益站价格或云服务器报价作比较的人。",
+    "purchase_note": "核对套餐对应节点范围，不把较贵直接推导成所有网络更稳定。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/jikecloud",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "gougoujiasu",
@@ -77,8 +459,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://doggygo.org/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "狗狗加速又常写作 doggygo；存在多个自称官网、但套餐互相冲突的搜索页面。",
+    "offers": [
+      {
+        "name": "标准",
+        "amount": 15.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "高级",
+        "amount": 20.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "豪华",
+        "amount": 39.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料有按月与按年的对照，适合先测短期再决定续费。"
+    ],
+    "limitations": [
+      "该来源是资讯导航，非本次官方订单核实；不采纳无证据的稳定和不限速结论。"
+    ],
+    "suitable": "能够核对本家应用、愿意月付验证的普通个人用户。",
+    "not_suitable": "需要有证据的隐私审计或确定电竞延迟的人。",
+    "purchase_note": "退款、流量额度及当前协议均需官方确认，宣传带宽不能当作实测下载速度。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://doggygo.org/",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "taishan-net",
@@ -86,8 +519,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/Kerrynotes/taishannet"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "泰山公开评测存在不同时间的报价，本次入口只取得跳转页面，未读取完整商店。",
+    "offers": [
+      {
+        "name": "128GB档",
+        "amount": 10.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "128GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "256GB档",
+        "amount": 18.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "256GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "512GB档",
+        "amount": 32.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "512GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料把不同流量与限速并列，能同时比较用量和速度上限。"
+    ],
+    "limitations": [
+      "上述报价日期未注明，另有较新记录显示调价，因此不能作为今日购买承诺。"
+    ],
+    "suitable": "对预算敏感、愿意按当前商店核实后短期测试的人。",
+    "not_suitable": "只看旧优惠折算价、想直接购买多年套餐的人。",
+    "purchase_note": "年付列含特定折扣，不能推导为永久优惠；月付与一次性流量包分开比较。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/Kerrynotes/taishannet",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "jifeng",
@@ -95,8 +579,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://awesome.ecosyste.ms/projects/github.com%2Fplwudeqz%2Fclash"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "疾风云的可读第三方表按流量、设备数列出多档，当前公开入口未输出可读价目。",
+    "offers": [
+      {
+        "name": "入门",
+        "amount": 9.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "50GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "基础",
+        "amount": 15.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "标准",
+        "amount": 25.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料可区分小流量和较大流量支出，初次测试不必预付高档。"
+    ],
+    "limitations": [
+      "聚合页保存的报价可能较旧；不能与同名推广站上的100G入门档混用。"
+    ],
+    "suitable": "愿意先核对当前流量、设备数和节点等级的人。",
+    "not_suitable": "将所有价格档都理解成同样专线权益的人。",
+    "purchase_note": "来源是第三方仓库镜像，价格原始日期未注明；退款与售后承诺未验证。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://awesome.ecosyste.ms/projects/github.com%2Fplwudeqz%2Fclash",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "erwan",
@@ -104,8 +639,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/jichangbaike/erwancloud"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "尔湾云参考资料把流量、设备数量和峰值速率一起分档。",
+    "offers": [
+      {
+        "name": "基础",
+        "amount": 24.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "标准",
+        "amount": 39.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "高级",
+        "amount": 49.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "350GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "有明确的设备与用量参考，适合按家庭中自己的终端数量筛选。"
+    ],
+    "limitations": [
+      "基础档参考限速50Mbps，标准140Mbps；第三方旧优惠不能视为当前有效。"
+    ],
+    "suitable": "能接受基础档限速、主要是查资料和普通视频的人。",
+    "not_suitable": "需要大文件高速传输却只准备购买最低档的人。",
+    "purchase_note": "当前入口未提供可直接核实的价格；支付、退款和客户端须看当期说明。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/jichangbaike/erwancloud",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "jiuxiao",
@@ -113,8 +699,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/ermaozi/ermao.net"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "九霄云资料同时出现其他同名频道，本次以 shop.starpro.one 对应服务为研究对象。",
+    "offers": [
+      {
+        "name": "基础",
+        "amount": 15.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "标准",
+        "amount": 35.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "600GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "流量包",
+        "amount": 99.0,
+        "currency": "CNY",
+        "period": "一次性",
+        "quota": "1000GB总量，期限待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料区分周期套餐和一次性流量包，便于比较连续使用与间歇需求。"
+    ],
+    "limitations": [
+      "当前套餐接口要求登录；未独立验证试用、客服回复时长和退款。"
+    ],
+    "suitable": "已核对本家身份、想比较按月与按量的用户。",
+    "not_suitable": "因为同名频道称已换官网就直接向新域名付款的人。",
+    "purchase_note": "不能由第三方客服口碑推导5分钟必定回复；流量包是否过期需另确认。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/ermaozi/ermao.net",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "niceduck",
@@ -122,8 +759,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/NiceDuck"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "NiceDuck 好鸭参考表包含小流量季度档与多个按月档。",
+    "offers": [
+      {
+        "name": "Mini鸭",
+        "amount": 20.0,
+        "currency": "CNY",
+        "period": "季付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "小小鸭",
+        "amount": 12.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "小鸭",
+        "amount": 24.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "有较小的起付周期金额和普通月付选择，便于控制首次支出。"
+    ],
+    "limitations": [
+      "Mini鸭没有月付，不能写成每月20元；当前面板读取连接失败。"
+    ],
+    "suitable": "能接受先核查客户端、主要在意小额起付的人。",
+    "not_suitable": "需要明确退款保证或把附送影视服务作为购买主因的人。",
+    "purchase_note": "参考表中年付优惠和老活动不表示现在可用；确认是否允许共享账号。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/NiceDuck",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "cyberguard",
@@ -131,8 +819,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/cyberguard"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "CyberGuard 参考资料既有月付套餐又有流量包，但来源间报价和额度不一致。",
+    "offers": [
+      {
+        "name": "标准",
+        "amount": 42.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "360GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "团队",
+        "amount": 72.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "720GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "流量包",
+        "amount": 50.0,
+        "currency": "CNY",
+        "period": "一次性",
+        "quota": "200GB总量",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料提供按量和周期两种思路，适合比较间歇需求。"
+    ],
+    "limitations": [
+      "第三方年付行有异常，标准与团队年价相同且与半年价不协调，因此未收录该行。"
+    ],
+    "suitable": "能向官方核对期限、套餐等级和团队权限的用户。",
+    "not_suitable": "将旧资讯中的18元入门报价视为本次核实售价的人。",
+    "purchase_note": "本次只能读到品牌网页外壳；团队名称不自动授权共享或商业使用。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/cyberguard",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "bygcloud",
@@ -140,8 +879,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://byg.homes/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "白月光 bygcloud 的不同资料在月付、季付和流量包期限上存在差异。",
+    "offers": [
+      {
+        "name": "小包",
+        "amount": 66.0,
+        "currency": "CNY",
+        "period": "季付",
+        "quota": "100GB/月，按参考资料",
+        "source_id": "price-1"
+      },
+      {
+        "name": "中包",
+        "amount": 126.0,
+        "currency": "CNY",
+        "period": "季付",
+        "quota": "250GB/月，按参考资料",
+        "source_id": "price-1"
+      },
+      {
+        "name": "大包",
+        "amount": 156.0,
+        "currency": "CNY",
+        "period": "季付",
+        "quota": "400GB/月，按参考资料",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料明确列出季度实付和每月配额，避免将季费当成月费。"
+    ],
+    "limitations": [
+      "本家入口返回访问拒绝；一次性流量包在该资料中改为两年有效，非永久。"
+    ],
+    "suitable": "愿意核对流量包有效期、能承担季度付款的人。",
+    "not_suitable": "只想长期囤积永久不过期流量的人。",
+    "purchase_note": "另一个仓库有不同季度价，故不发布统一最低价或有效优惠码。",
+    "source_date_note": "2026-01活动上下文，报价日期未注明",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://byg.homes/",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "第三方资料提示不退款或期限变化，尚未独立核对当期本家条款。"
   },
   {
     "id": "shandian",
@@ -149,8 +939,51 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangliebiao.com/jichang/shandianpro"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "闪电机场与闪连、闪电猫、闪电云不是同一产品，先按入口和品牌区分。",
+    "offers": [
+      {
+        "name": "Lv2",
+        "amount": 13.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度未在表中列明",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Lv3",
+        "amount": 22.5,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度未在表中列明",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料给出两档月费，方便先估支出而非预付多年。"
+    ],
+    "limitations": [
+      "本家入口遇到访问验证；资料对协议与限速存在不同口径，未作统一性能结论。"
+    ],
+    "suitable": "能确认正确服务、有短期轻量用途并愿意先测试的人。",
+    "not_suitable": "仅按名字就认为等同闪连或 SpeedCAT 的用户。",
+    "purchase_note": "退款、当前限速和设备数需核查，本页不引用用户评论判定服务已停运。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangliebiao.com/jichang/shandianpro",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "nexitally",
@@ -158,8 +991,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://telegra.ph/jichang-11-22"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "Nexitally 奶昔参考资料包含基础套餐及额外加购项目，必须区分主套餐和增值包。",
+    "offers": [
+      {
+        "name": "Smart Access Air",
+        "amount": 74.55,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Smart Access",
+        "amount": 123.33,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "500GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Group Access加购",
+        "amount": 47.41,
+        "currency": "CNY",
+        "period": "月付加购",
+        "quota": "参考为5个在线IP",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料区分流量档与增加IP额度的加购项，有利于按用途计算总价。"
+    ],
+    "limitations": [
+      "增值项不能单独当VPN套餐；本家入口有访问验证，现价和可购买状态未确认。"
+    ],
+    "suitable": "预算较高、知道自己流量与同时在线IP需求的用户。",
+    "not_suitable": "希望几十元以内购买所有功能、或把IP数等同设备数的人。",
+    "purchase_note": "不采纳自称官网却展示Firefly或15元套餐的页面；核实增值服务是否要求主套餐。",
+    "source_date_note": "页面自述2026-10-08更新，报价逐项日期未注明",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://telegra.ph/jichang-11-22",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "sanyueqi",
@@ -167,8 +1051,67 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/sanyueqi",
+      "https://t.me/s/syq_channel"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "三月七公告现已说明转为 AnyTLS 直连，旧IPLC介绍不能代表当前全部线路。",
+    "offers": [
+      {
+        "name": "个人Lv1",
+        "amount": 9.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待本家核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "个人Lv2",
+        "amount": 19.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待本家核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "个人Lv3",
+        "amount": 39.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待本家核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "有公开公告与个人、家庭、企业级资料，可先核对账户类型。"
+    ],
+    "limitations": [
+      "当前协议发生变更；公告说明跨等级购买覆盖旧套餐、流量不按多次购买累积。"
+    ],
+    "suitable": "愿意使用当前兼容客户端、关注直连网络表现的人。",
+    "not_suitable": "要求沿用旧协议或默认年付额度一次到账的人。",
+    "purchase_note": "本家公告是重要补充，但价格仍为第三方参考；不把过期促销码列为可用优惠。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/sanyueqi",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-1",
+        "url": "https://t.me/s/syq_channel",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "naiyou",
@@ -176,8 +1119,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://www.ffqla.net/thread-179-1-1.html"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "奶优 NaiU_Net 的可读参考来自2023年论坛资料，适合了解结构，不能作为2026现价。",
+    "offers": [
+      {
+        "name": "Nano",
+        "amount": 15.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Micro",
+        "amount": 25.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Small",
+        "amount": 35.9,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "350GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "历史表按用量分档，能帮助识别套餐名称和原有产品结构。"
+    ],
+    "limitations": [
+      "资料较旧且本次套餐读取要求登录；协议、价格、流量均须重新确认。"
+    ],
+    "suitable": "已有账户、能回读当前商店后再比较升级的人。",
+    "not_suitable": "直接按2023年表规划年付或游戏性能的人。",
+    "purchase_note": "旧测速图片不代表当前表现，不以历史专线说明保证现阶段连接质量。",
+    "source_date_note": "2023-11-29",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://www.ffqla.net/thread-179-1-1.html",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2023-11-29"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "qingyun",
@@ -185,8 +1179,43 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/clash-s/clash-s.github.io/blob/main/404.html"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "轻云以 qingyun.world 对应入口为研究对象，与青云梯、云界线等名称分开。",
+    "offers": [
+      {
+        "name": "100G参考档",
+        "amount": 12.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "公开目录提供了一个可追溯的月付报价线索。"
+    ],
+    "limitations": [
+      "仅有单档参考，官网套餐读取需要登录；无法确认完整档位、退款和设备数。"
+    ],
+    "suitable": "愿意先取得本家完整价目、用途较轻的个人用户。",
+    "not_suitable": "需要可审计隐私、明确团队服务或详细线路保证的人。",
+    "purchase_note": "不能把其他服务名称中含轻云的套餐误认为本家产品。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/clash-s/clash-s.github.io/blob/main/404.html",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "qiansumiao",
@@ -194,8 +1223,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/tsmeow"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "千速喵参考入口已经出现 liltpupu 等新名称，名称与入口需一并确认。",
+    "offers": [
+      {
+        "name": "小杯极速",
+        "amount": 13.88,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "大流量极速",
+        "amount": 23.99,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "专线档",
+        "amount": 16.88,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考结构区分大流量与专线需求，并有按月选择。"
+    ],
+    "limitations": [
+      "两个专线档在表中重名，不能仅凭名称下单；改名线索尚未取得本家确认。"
+    ],
+    "suitable": "能通过已有账户确认新入口、愿意先看具体节点权益的人。",
+    "not_suitable": "只凭旧千速喵品牌名付款，或把同名13.88报价当现价的人。",
+    "purchase_note": "保留原品牌名以便检索，暂不把旧名和新域名断言为已确认同一经营者。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/tsmeow",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "qingyunti",
@@ -203,8 +1283,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangliebiao.com/list/qingyunti.html"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "青云梯常规月付与小流量年付是不同产品，年付低月均不表示可单月购买。",
+    "offers": [
+      {
+        "name": "年付小包",
+        "amount": 96.0,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "60GB/月，另一来源写80GB",
+        "source_id": "price-1"
+      },
+      {
+        "name": "VIP1",
+        "amount": 25.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "150GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "VIP2",
+        "amount": 45.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "300GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考表提供小流量和普通月付，适合比较年度预算与连续用量。"
+    ],
+    "limitations": [
+      "两份第三方资料的小年包额度分别为60GB与80GB，未确认哪一版在售。"
+    ],
+    "suitable": "用量可估算、愿意核对小包额度后再选周期的人。",
+    "not_suitable": "按月均8元理解成可以8元买一月，或需要确认最高带宽的人。",
+    "purchase_note": "宣传不限速不等于能跑满本地宽带，客户端和退款仍需本家资料。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangliebiao.com/list/qingyunti.html",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "peiqian",
@@ -212,8 +1343,34 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://t.me/s/peiqianjichangpd"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "unknown",
+    "summary": "赔钱机场存在多组同名域名和不同价目，本次没有建立唯一、足够可靠的服务身份对应。",
+    "offers": [],
+    "advantages": [
+      "候选频道保留了品牌入口线索，可作为后续人工核对起点。"
+    ],
+    "limitations": [
+      "同名条目可能指不同经营者；没有可靠依据采用极低价和大流量套餐。"
+    ],
+    "suitable": "暂缓购买；已持有本家账户、可以核对真实域名和报价的用户。",
+    "not_suitable": "想仅凭超低价搜索结果立即付款的人。",
+    "purchase_note": "本轮不把月付1.5元、年付6.99元等不同来源混成一个品牌的现价。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://t.me/s/peiqianjichangpd",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "paopao-dog",
@@ -221,8 +1378,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangtuijian1.com/iplc/paopaodog"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "泡泡Dog 参考资料有周期流量和一年总量产品，二者不能按相同月配额比较。",
+    "offers": [
+      {
+        "name": "白银",
+        "amount": 15.4,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "88GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "铂金",
+        "amount": 27.5,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "268GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "秋季限定",
+        "amount": 116.6,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "888GB全年总量",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "按月与全年总量提供两种分配方式，可以按使用月份是否均匀选择。"
+    ],
+    "limitations": [
+      "季节性产品可能下架；第三方资料称不退款与跨档覆盖，未独立登录核实。"
+    ],
+    "suitable": "能估算全年总用量、愿意逐项核对有效期的个人用户。",
+    "not_suitable": "将888GB理解成每月额度、需要共享授权或退款保证的人。",
+    "purchase_note": "上述客户端变更等属于资料核查，不能把第三方所称后台实测写成本站实测。",
+    "source_date_note": "2026-09-04",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangtuijian1.com/iplc/paopaodog",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-09-04"
+      }
+    ],
+    "refund_note": "第三方资料提示不退款或期限变化，尚未独立核对当期本家条款。"
   },
   {
     "id": "muniuyun",
@@ -230,8 +1438,67 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/muniucloud",
+      "https://t.me/s/muniunotify"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "牧牛云本家公告已改变协议和入口，旧SS/SSR教程需要重查。",
+    "offers": [
+      {
+        "name": "青铜",
+        "amount": 15.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      },
+      {
+        "name": "白银",
+        "amount": 28.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "来源未列额度",
+        "source_id": "price-1"
+      },
+      {
+        "name": "周试用",
+        "amount": 5.0,
+        "currency": "CNY",
+        "period": "1周",
+        "quota": "50GB，历史参考",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "公开公告包含协议迁移与客户端说明，已有用户有查找更新的渠道。"
+    ],
+    "limitations": [
+      "本家近期公告称普通协议集体故障，并要求官方客户端；价格表仍是历史参考。"
+    ],
+    "suitable": "已有账户、愿意按本家公告更换兼容客户端的用户。",
+    "not_suitable": "坚持沿用旧SSR配置、需要确定连续工作连接的人。",
+    "purchase_note": "本家当前公告入口为 muniu.app；不把历史周试用当作仍在售。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/muniucloud",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-1",
+        "url": "https://t.me/s/muniunotify",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "eternal-network",
@@ -239,8 +1506,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/EternalNetwork"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "Eternal Network 参考套餐以布丁名称区分，价格表未同时提供配额。",
+    "offers": [
+      {
+        "name": "焦糖布丁",
+        "amount": 6.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "配额待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "芒果布丁",
+        "amount": 10.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "配额待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "抹茶布丁",
+        "amount": 23.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "配额待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考月付金额较小，可作为核实后短期验证的预算线索。"
+    ],
+    "limitations": [
+      "当前入口遇到访问验证；未確認每档额度、倍率、试用和退款。"
+    ],
+    "suitable": "愿意先查看配额和倍率、主要作为备用的个人用户。",
+    "not_suitable": "需要长期稳定保证却只根据低月费付款的人。",
+    "purchase_note": "5Gbps等营销指标未测试；套餐名相近不代表相同节点权限。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/EternalNetwork",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "flyingbird",
@@ -248,8 +1566,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/jdnei/flyingbird"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "FLYINGBIRD 飞鸟与其他同名飞鸟云服务需要区分，参考表含周期套餐与补充包。",
+    "offers": [
+      {
+        "name": "青铜",
+        "amount": 15.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "白银",
+        "amount": 30.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "黄金",
+        "amount": 75.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "500GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考主套餐按月额度明确，比较不同档位时可用相同周期。"
+    ],
+    "limitations": [
+      "补充流量包依赖有效主套餐，不能单独买来作为VPN服务；本次未核实商店。"
+    ],
+    "suitable": "能先查当前客户端和有效主套餐、需要固定月用量的人。",
+    "not_suitable": "只购买补充包、或把不同飞鸟品牌的价格混用的人。",
+    "purchase_note": "来源称流量每30天重置，购买前检查重置与续费是否改变旧套餐。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/jdnei/flyingbird",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "guangnianti",
@@ -257,8 +1626,51 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangbay.com/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "光年梯参考资料按月流量和专属客户端说明选购，搜索中同名营销页较多。",
+    "offers": [
+      {
+        "name": "入门",
+        "amount": 18.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "110GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "晋级",
+        "amount": 34.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "220GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考表提供按月入门支出，适合先预算、再测目标地区。"
+    ],
+    "limitations": [
+      "当前跳转入口读取失败；另有资料指出需专属客户端，本次未确认通用订阅。"
+    ],
+    "suitable": "能接受先确认本家客户端、主要用个人常用地区的人。",
+    "not_suitable": "必须使用指定第三方客户端或期待免费试用、退款的人。",
+    "purchase_note": "不把网络上9.8、15或18元的不同同名价目拼接；这里仅保留可追溯的18元参考。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangbay.com/",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "longmaoyun",
@@ -266,8 +1678,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangliebiao.com/list/longmao.html"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "龙猫云 TotoroCloud 第三方资料有VIP档位与定制服务，不能因套餐名认为全包含。",
+    "offers": [
+      {
+        "name": "VIP1",
+        "amount": 15.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "VIP2",
+        "amount": 30.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "VIP3",
+        "amount": 60.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "400GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考普通档位可按月预算、按用量逐级选择。"
+    ],
+    "limitations": [
+      "不同来源的VIP3价目曾出现66元，未取得本家结算页确认；独立IP定制另算。"
+    ],
+    "suitable": "愿意先验证日常应用、主要在意明确月流量的人。",
+    "not_suitable": "把共享节点套餐当成独立IP或必定支持直播的人。",
+    "purchase_note": "不沿用第三方所称不会停运或所有平台都解锁的保证。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangliebiao.com/list/longmao.html",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "yeshayun",
@@ -275,8 +1738,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/yeshayun"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "夜煞云有部分只接受长期付款的档位，以及普通月付套餐。",
+    "offers": [
+      {
+        "name": "Mini",
+        "amount": 58.0,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Medium",
+        "amount": 10.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Standard",
+        "amount": 19.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考表把年付专属和月付分开，有助于避免把58元当月费。"
+    ],
+    "limitations": [
+      "本家入口遇访问验证；资料中2025年优惠已经过期，不能宣传仍有效。"
+    ],
+    "suitable": "愿意按本家商店核对配额、周期和客户端的个人用户。",
+    "not_suitable": "需要已证实设备上限、退款或可靠商用服务的人。",
+    "purchase_note": "价格均未本次登录验证；不引用旧速率图描述今日性能。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/yeshayun",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "ytoo",
@@ -284,8 +1798,67 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/YToo",
+      "https://t.me/waitu_channel"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "歪兔 YToo 参考表包含常规月付和AIR年付档；公开频道与入口有变更线索。",
+    "offers": [
+      {
+        "name": "BASIC",
+        "amount": 36.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "PLUS",
+        "amount": 54.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "AIR",
+        "amount": 98.0,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考表提供年度小包和普通月付的不同预算路径。"
+    ],
+    "limitations": [
+      "客户端、使用地区与当前协议未独立确认；AIR只有年付，配额需核对。"
+    ],
+    "suitable": "已有本家入口、能先验证目标地区再选择周期的用户。",
+    "not_suitable": "根据老域名或旧SSR教程直接下单的人。",
+    "purchase_note": "本家频道当前描述提供 to-ytoo.xyz，未将第三方域名写成唯一永久官网。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/YToo",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-1",
+        "url": "https://t.me/waitu_channel",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "xgcloud",
@@ -293,17 +1866,135 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/xgcloud"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "xgCloud 参考资料有周期套餐、年期流量包及不同试用产品。",
+    "offers": [
+      {
+        "name": "入门",
+        "amount": 20.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "配额待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "进阶",
+        "amount": 30.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "配额待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "年期流量包",
+        "amount": 100.0,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "200GB总量",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料把按月和总量产品分开，适合用量不均的备用需求比较。"
+    ],
+    "limitations": [
+      "年期流量包并非永久；本次当前入口读取失败，流量倍率及续费不能确认。"
+    ],
+    "suitable": "能核对当前入口、需要比较周期与总量套餐的人。",
+    "not_suitable": "把200GB年包理解成200GB每月，或需要永久有效保证的人。",
+    "purchase_note": "不把旧来源中的专业线路或不限设备直接当作当前条款。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/xgcloud",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "v2free",
     "name": "V2free-VPN",
     "affiliate_url": null,
-    "official_url": null,
-    "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "official_url": "https://v2free.org/",
+    "verification_status": "official_verified",
+    "evidence": [
+      "https://v2free.org/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "primary_current",
+    "summary": "V2free 公共首页可读取套餐，30天月包与360天年包的节点等级不同。",
+    "offers": [
+      {
+        "name": "试用",
+        "amount": 5.0,
+        "currency": "CNY",
+        "period": "5天",
+        "quota": "5GB总量，最多买2次",
+        "source_id": "price-1"
+      },
+      {
+        "name": "月付A",
+        "amount": 20.0,
+        "currency": "CNY",
+        "period": "30天",
+        "quota": "100GB总量",
+        "source_id": "price-1"
+      },
+      {
+        "name": "月付B",
+        "amount": 39.0,
+        "currency": "CNY",
+        "period": "30天",
+        "quota": "200GB总量",
+        "source_id": "price-1"
+      },
+      {
+        "name": "年付O",
+        "amount": 112.0,
+        "currency": "CNY",
+        "period": "360天",
+        "quota": "50GB每30天",
+        "source_id": "price-1"
+      },
+      {
+        "name": "年付A",
+        "amount": 168.0,
+        "currency": "CNY",
+        "period": "360天",
+        "quota": "100GB每30天",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "公开价格和期限可核对，并有小额付费试用。"
+    ],
+    "limitations": [
+      "新套餐不能叠加，可能作废旧套餐；充值可能触发自动续费，勿重复购买。"
+    ],
+    "suitable": "希望先用5天小包验证、能理解VIP1/2权限差异的个人用户。",
+    "not_suitable": "把360天当365天、或想累加多个套餐流量的人。",
+    "purchase_note": "官网页面存在关于流量包购买资格的不同表述，先向客服确认活动套餐条件；退款本次未确认。",
+    "source_date_note": "2026-10-12",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://v2free.org/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-10-12"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "xsus",
@@ -311,8 +2002,75 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/jdnei/xsus",
+      "https://xsus.cloud/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "XSUS 参考资料把普通线路、IEPL季度档和一次性包区分，≤5 IP不是5台设备。",
+    "offers": [
+      {
+        "name": "P-Small",
+        "amount": 12.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "168GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "P-Plus",
+        "amount": 24.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "336GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "IEPL-Small",
+        "amount": 52.0,
+        "currency": "CNY",
+        "period": "季付",
+        "quota": "50GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "P-188G包",
+        "amount": 65.0,
+        "currency": "CNY",
+        "period": "一次性",
+        "quota": "188GB总量",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料提供多种付款与线路组合，可比较小流量专线和普通大流量。"
+    ],
+    "limitations": [
+      "本次套餐读取要求登录；官方前端购买须知写明不提供原路退款，一次性重购不叠加。"
+    ],
+    "suitable": "愿意核对IP限制、主套餐和流量重置规则的个人用户。",
+    "not_suitable": "拿5 IP理解成5台终端、或想叠加一次性包囤流量的人。",
+    "purchase_note": "前端说明可用于条款线索，未代替本次订单确认；当前官方教程在 help.xsus.cloud。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/jdnei/xsus",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-1",
+        "url": "https://xsus.cloud/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本家公开前端购买须知写明不提供原路返回退款；须再核对当期订单。"
   },
   {
     "id": "tag",
@@ -320,17 +2078,130 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangtuijian1.com/gaoduanjichang/tag"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "TAG 参考资料以地区范围、配额和账户类型分档，小年包是全年总量。",
+    "offers": [
+      {
+        "name": "Special",
+        "amount": 162.0,
+        "currency": "CNY",
+        "period": "年付",
+        "quota": "200GB全年总量",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Bronze",
+        "amount": 185.0,
+        "currency": "CNY",
+        "period": "季付",
+        "quota": "250GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Silver",
+        "amount": 114.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "500GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料指出地区覆盖差异，可让有特定地区需求的人有方向地核查。"
+    ],
+    "limitations": [
+      "基础成本较高，国内/国际站使用范围不同；当前入口访问受限，现价未确认。"
+    ],
+    "suitable": "有具体地区出口要求、能核实地区限制和客户端的用户。",
+    "not_suitable": "只做普通网页访问且预算很低，或计划共享订阅的人。",
+    "purchase_note": "不由住宅IP推导免封号；官网资料未独立核查，第三方所称测试不是本站测试。",
+    "source_date_note": "2026-07-15",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangtuijian1.com/gaoduanjichang/tag",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-07-15"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "stc-spades",
     "name": "STC-SPADES-VPN",
     "affiliate_url": null,
-    "official_url": null,
-    "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "official_url": "https://stc-spades.com/",
+    "verification_status": "official_verified",
+    "evidence": [
+      "https://github.com/winston779/stc-spades",
+      "https://ac333.stc-spadesdns.com/"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "STC-SPADES 本家首页能读到档位和流量，精确月费仍需登录核对。",
+    "offers": [
+      {
+        "name": "基础",
+        "amount": 38.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "官网首页列500GB/月",
+        "source_id": "price-1",
+        "quota_source_id": "primary-1"
+      },
+      {
+        "name": "进阶",
+        "amount": 48.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "官网首页列600GB/月",
+        "source_id": "price-1",
+        "quota_source_id": "primary-1"
+      },
+      {
+        "name": "旗舰",
+        "amount": 88.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "官网首页列800GB/月",
+        "source_id": "price-1",
+        "quota_source_id": "primary-1"
+      }
+    ],
+    "advantages": [
+      "本家首页区分3/4/5个在线客户端及不同线路档，便于按终端数量核查。"
+    ],
+    "limitations": [
+      "首页价格写3x、4x、7x，无法精确确认；参考旗舰88与首页7x有差异。"
+    ],
+    "suitable": "需要多端个人使用、能先对照实际商店额度与线路的人。",
+    "not_suitable": "将所有档都理解成同一专线，或把38元当已确认现价的人。",
+    "purchase_note": "本家规格与第三方价格分别标注；同等级续费、跨等级切换的权益需看当前条款。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/stc-spades",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-1",
+        "url": "https://ac333.stc-spadesdns.com/",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "speedcat",
@@ -338,8 +2209,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/Kerrynotes/speedcat"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "SpeedCAT 闪电猫与闪电机场、闪连分开；参考表含月付与年期总量产品。",
+    "offers": [
+      {
+        "name": "迷你猫",
+        "amount": 20.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月，评测参考",
+        "source_id": "price-1"
+      },
+      {
+        "name": "闪电猫",
+        "amount": 40.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月，评测参考",
+        "source_id": "price-1"
+      },
+      {
+        "name": "霹雳猫",
+        "amount": 100.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "500GB/月，评测参考",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考档位有明确按月配额，可按同周期比较支出。"
+    ],
+    "limitations": [
+      "本轮未取得可读取的商店；2026年9月活动已结束，不能沿用折扣。"
+    ],
+    "suitable": "能确认本家入口、需要按固定月用量选档的人。",
+    "not_suitable": "把流星猫年期总量当作每月配额、或只看5Gbps宣传的人。",
+    "purchase_note": "公开测速条件与自己网络不同，本页不将第三方测速写成本站结果。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/Kerrynotes/speedcat",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "hongxing",
@@ -347,8 +2269,34 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/John19187/The-40-Best-VPNs/blob/main/data/providers.yml"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "unknown",
+    "summary": "参考清单中的红杏-VPN 尚未与红杏云、一枝红杏或其他同名红杏VPN建立唯一对应。",
+    "offers": [],
+    "advantages": [
+      "目前未取得足够证据确认产品优势，不作购买推荐。"
+    ],
+    "limitations": [
+      "对应入口只返回OK，不能据此确认套餐、经营状态或品牌；搜索同名结果较多。"
+    ],
+    "suitable": "先能提供本家完整域名、账户和条款资料的人，现阶段暂缓购买。",
+    "not_suitable": "把红杏云20/40/60元套餐直接套到红杏-VPN的人。",
+    "purchase_note": "保留独立条目避免错误合并，待身份对应后才加入价格表。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/John19187/The-40-Best-VPNs/blob/main/data/providers.yml",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "riolu",
@@ -356,8 +2304,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/winston779/riolu"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "Riolu 精灵学院有同名教育内容站，参考金属档位来自代理服务资料。",
+    "offers": [
+      {
+        "name": "Iron",
+        "amount": 6.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Copper",
+        "amount": 12.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Silver",
+        "amount": 24.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "额度待核对",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考资料有小额月付档位，可作为确认身份后控制首次支出的线索。"
+    ],
+    "limitations": [
+      "入口和客户端版本有变更信息，当前套餐额度、退款和协议兼容尚未确认。"
+    ],
+    "suitable": "已有正确账户、愿意跟随本家说明核对版本的人。",
+    "not_suitable": "通过同名教育网站购买，或随意安装转载客户端的人。",
+    "purchase_note": "不要从精灵学院名称推断学校或教育机构；保持代理服务和同名内容平台分开。",
+    "source_date_note": "来源未注明原始报价日期",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/winston779/riolu",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "coffee-cloud",
@@ -365,8 +2364,59 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://jichangtuijian1.com/pianyijichang/coffeecloud"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "Coffee Cloud 咖啡云第三方较新资料包含美式、拿铁、摩卡档，旧流量表已不同。",
+    "offers": [
+      {
+        "name": "美式",
+        "amount": 12.5,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "拿铁",
+        "amount": 22.5,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "220GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "摩卡",
+        "amount": 42.5,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "450GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考价格提供小额月付和较大配额，能先预算客户端验证成本。"
+    ],
+    "limitations": [
+      "本次套餐读取要求登录；资料反映专用协议与售后争议，均未独立实测确认。"
+    ],
+    "suitable": "能够先确认官方客户端与当前连接表现、仅作短期验证的人。",
+    "not_suitable": "希望直接用任意公版客户端、要求确定售后时效的人。",
+    "purchase_note": "不沿用旧10元/130GB表，也不根据第三方基础设施线索断言与其他服务为同一公司。",
+    "source_date_note": "2026-09-10",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://jichangtuijian1.com/pianyijichang/coffeecloud",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-09-10"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "hongxingyun",
@@ -374,17 +2424,143 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://github.com/jichangbaike/hongxingyun"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "红杏云参考资料同时包含按月和一次性包，与独立红杏-VPN条目分开。",
+    "offers": [
+      {
+        "name": "轻量",
+        "amount": 20.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "冲浪",
+        "amount": 40.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "500GB/月",
+        "source_id": "price-1"
+      },
+      {
+        "name": "豪华",
+        "amount": 60.0,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "800GB/月",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "参考档位配额与月费明确，可按实际用量逐级比较。"
+    ],
+    "limitations": [
+      "本家公开营销页没有可核实价目；共享说明与个人使用边界需看实际条款。"
+    ],
+    "suitable": "愿意先确认账户使用规则、需要中等至较大月用量的人。",
+    "not_suitable": "未经明确授权就多人转售、或把EMBY附送当保证的人。",
+    "purchase_note": "设备不限不等于商业共享权限；当前客户端、退款和协议由本家条款决定。",
+    "source_date_note": "2026-06-19",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://github.com/jichangbaike/hongxingyun",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-06-19"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   },
   {
     "id": "oixcloud",
     "name": "oixcloud",
     "affiliate_url": null,
-    "official_url": null,
-    "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "official_url": "https://oixcloud.com/",
+    "verification_status": "official_verified",
+    "evidence": [
+      "https://oixcloud.com/shop",
+      "https://oixcloud.com/tos",
+      "https://docs.dler.io/en/account/traffic"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "primary_current",
+    "summary": "oixCloud 公共商店可核对周期总量、单端限速和线路范围，个人档不允许共享。",
+    "offers": [
+      {
+        "name": "Pass Iron",
+        "amount": 192.0,
+        "currency": "CNY",
+        "period": "年付365天",
+        "quota": "2000GiB周期总量；Edge",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Pass Alu",
+        "amount": 240.0,
+        "currency": "CNY",
+        "period": "年付365天",
+        "quota": "800GiB周期总量；页面售罄",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Pass Bronze",
+        "amount": 384.0,
+        "currency": "CNY",
+        "period": "年付365天",
+        "quota": "1200GiB周期总量；Edge/CIA/IXP",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Pass Silver",
+        "amount": 576.0,
+        "currency": "CNY",
+        "period": "年付365天",
+        "quota": "2500GiB周期总量；含Fusion",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "公开说明把线路与额度分开，使用者可以按地区和周期总用量选择。"
+    ],
+    "limitations": [
+      "Iron明示可能不适用于中国大陆网络；个人档不可共享、付款通常不退款。"
+    ],
+    "suitable": "理解全年额度、能检查线路适用性的个人用户；团队需求另看Team产品。",
+    "not_suitable": "需要每月自动重置流量、想合用个人账号或要求退款保证的人。",
+    "purchase_note": "高速额度覆盖所选周期，不按自然月自动重置；Alu售罄不计可购低价档。",
+    "source_date_note": "2026-10-12",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://oixcloud.com/shop",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": "2026-10-12"
+      },
+      {
+        "id": "primary-2",
+        "url": "https://oixcloud.com/tos",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      },
+      {
+        "id": "primary-3",
+        "url": "https://docs.dler.io/en/account/traffic",
+        "kind": "primary",
+        "checked_at": "2026-10-12",
+        "source_date": null
+      }
+    ],
+    "refund_note": "本家条款注明付款和充值通常不可退款、账户余额不可提现；可强制适用的法定权利除外。"
   },
   {
     "id": "mitu",
@@ -392,8 +2568,58 @@
     "affiliate_url": null,
     "official_url": null,
     "verification_status": "unverified",
-    "evidence": [],
-    "checked_at": null
+    "evidence": [
+      "https://www.ffqla.net/thread-73-1-1.html"
+    ],
+    "checked_at": "2026-10-12",
+    "researched_at": "2026-10-12",
+    "price_status": "secondary_reference",
+    "summary": "咪兔 Mitu 的2023年论坛表与后来记录不同，旧价格只用于辨识基础/高级产品结构。",
+    "offers": [
+      {
+        "name": "Basic小杯（历史）",
+        "amount": 9.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月，2023记录",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Basic中杯（历史）",
+        "amount": 18.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "200GB/月，2023记录",
+        "source_id": "price-1"
+      },
+      {
+        "name": "Premium小杯（历史）",
+        "amount": 29.8,
+        "currency": "CNY",
+        "period": "月付",
+        "quota": "100GB/月，2023记录",
+        "source_id": "price-1"
+      }
+    ],
+    "advantages": [
+      "历史结构区分基础与高级线路，便于提醒读者不能只比较配额。"
+    ],
+    "limitations": [
+      "本轮入口需要人机验证；2023档位不能当作2026售价或客户端保证。"
+    ],
+    "suitable": "已有本家账户、能核对新版基础/高级权益的人。",
+    "not_suitable": "直接用历史100GB档报价规划长期付款的人。",
+    "purchase_note": "保留历史基准而不混入其他自称官网价目；当期流量、试用与退款仍需核查。",
+    "source_date_note": "2023-09-15",
+    "sources": [
+      {
+        "id": "price-1",
+        "url": "https://www.ffqla.net/thread-73-1-1.html",
+        "kind": "reference",
+        "checked_at": "2026-10-12",
+        "source_date": "2023-09-15"
+      }
+    ],
+    "refund_note": "本次未核实退款政策，购买前查看本家条款；不采用第三方笼统退款保证。"
   }
 ]
-
